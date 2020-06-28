@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		img
+		{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+		}
+		.id1
+		{
+			position: absolute;
+            top: 0px;
+            right: 0px;
+            font-size: 30px;
+            font-style: serif;
+        }
+        .nav
+        {
+        	position: relative;
+        	display: block;
+        	background-color: black;
+        	list-style-type: none;
+        	color: white;
+        	margin: 0;
+        	padding: 0;
+        	width: 100%;
+        	top : 100px;
+        }
+        .nav li
+        {
+        	 display: inline-block;
+             font-size: 20px;
+             padding: 5px 10px;
+        }
+        .nav a
+        {
+           color: white;
+           text-decoration: none;
+        }
+        table
+        {
+		  position: absolute;
+	      top:170px;
+	      left:10px;
+        }
+       input[type="text"]
+        {
+          border:1px solid black;
+	      border-radius: 3px;
+	      background-color:	#F8F8F8;
+          box-shadow: 1px 1px grey
+        }
+        input[type="number"]
+        {
+          border:1px solid black;
+	      border-radius: 3px;
+	      background-color:	#F8F8F8;
+          box-shadow: 1px 1px grey
+        }
+       input[type="radio"]
+       {
+         border:1px solid black;
+	     border-radius: 5px;
+	     background-color:	#F8F8F8;
+	   }
+      input[type="checkbox"]
+      {
+         border:1px solid black;
+	     border-radius: 5px;
+	     background-color:	#F8F8F8;
+	 	 box-shadow: 1px 1px grey;
+      }
+      input[type="e-mail"]
+      {
+          border:1px solid black;
+	      border-radius: 5px;
+	      background-color:	#F8F8F8;
+          box-shadow: 1px 1px grey;
+      }
+      input[type="submit"]
+      {
+         border:1px solid black;
+	     padding-left:10px;
+	     padding-right:10px;
+	     padding-top:3px;
+		 box-shadow: 1px 1px grey;
+	     background-color:	#F0F0F0;
+	     border-radius: 2px;
+	     font-size:15px;
+         color:black;
+      }
+      input[type="reset"]
+     {
+        border:1px solid grey;
+	    padding-left:10px;
+	    padding-right:10px;
+	    padding-top:3px;
+		box-shadow: 1px 1px black;
+	    background-color:	#F0F0F0;
+	    border-radius: 2px;
+        font-size:15px;
+    }
+</style>
+	
+</head>
+<body>
+	<a href=" https://www.iiit.ac.in/ "><img src=" https://www.iiit.ac.in/img/iiit-new.png">
+   </a>
+   <a href="https://serc.iiit.ac.in/rdip">
+	  <p class="id1"><u><b>RDIP</b></u></p>
+   </a>
+<ul class="nav">
+	<li><a href="homepage.html" target="_blank">Home</a></li>
+	<li><a href="registration.html" target="_blank">Registration</a></li>
+</ul>
+<form method="GET" action="details.html">
+	<table>
+		<tr>
+			<td><b>First Name:</b></td>
+			<td><input type="text" name="first_name" required></td>
+		</tr>
+		<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+		<tr>
+			<td><b>E-mail:</b></td>
+			<td><input type="E-mail" name="email_id" required></td>
+		</tr>
+		<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+		<tr>
+			<td><b>Phone No:</b></td>
+			<td><input type="number" name="phone_no" required></td>
+		</tr>
+		<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+		<tr>
+			<td><b>Gender:</b></td>
+			<td>
+				<input type="radio" name="gender" ><b>Male</b>
+				<input type="radio" name="gender"><b>Female</b>
+				<input type="radio" name="gender"><b>Other</b>
+			</td>
+		</tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+		<tr>
+			<td><b>Reason for RDIP:</b></td>
+			<td>
+				<input type="checkbox" name="s1" ><b>HTML</b>
+				<input type="checkbox" name="s1"><b>CSS</b>
+				<input type="checkbox" name="s1"><b>JavaScript</b>
+			</td>
+		</tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+		<tr>
+			<td><b>College:</b></td>
+			<td><input type="text"></td>
+		</tr>
+		<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+		<tr>
+			<td><input type="checkbox" name="s2" required></td>
+			<td><b>I declare above details given by me are true.</b></td>
+		</tr>
+		<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+		<tr>
+			<td><input type="submit" value="Submit"></td>
+			<td><input type="reset" value="Reset"></td>
+		</tr>
+		<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+		</table>
+	</form>
+
+
+</body>
+</html>
