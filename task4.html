@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task-4</title>
+	<link rel="stylesheet" type="text/css" href="design4.css">
+</head>
+<body>
+<div class="container">
+	 <h1>Who Will Survive?</h1>
+	<h2 id="h2"></h2><br>
+	<table>
+		<tr>
+			<td>
+				<button  onclick = "i = num1();return false;" id="ma">Click here for num1 <input type="text" id="n1"><br></button> 
+			</td>
+			<td>
+				<button onclick="j = num2();return false;" id="ma">Click here for  num2 <input type="text" id="n2"><br></button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onclick='document.getElementById("win").innerHTML = winpredictor(i,j);return false;' id="sub">Click here to know the winner</button>
+			</td>
+		</tr>
+	</table>
+	<h2 id="win">The winner is..</h2>
+</div>
+<script src="alltasks.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="design2.css">
+</head>
+<body>
+	<div class="container">
+	<form method="post" action="" name="form" onsubmit="return validation()">
+		<table>
+			<tr>
+				<td>Enter your Name</td>
+				<td>:</td>
+		      <td><input type="text" name="name" required></td>
+		  </tr>
+		  <tr>
+		  	<td>Enter your Mobile Number</td>
+		  	<td>:</td>
+		   <td><input type="text" name="mobile" required></td>
+		  </tr>
+		  <tr>
+		  	<td>Enter your E-mail Id</td>
+		  	<td>:</td>
+		   <td><input type="text" name="email" id="email" required></td>
+		  </tr>
+	    </table>
+		   <div><input type="submit" name="submit" value="Submit"></div>
+	</form>
+</body>
+<script type="text/javascript" src = "alltasks.js"></script>
+</html>
